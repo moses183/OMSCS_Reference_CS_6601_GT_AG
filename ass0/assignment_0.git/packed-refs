@@ -1,0 +1,5 @@
+# pack-refs with: peeled fully-peeled sorted 
+24bf83ebb910c9203adb43b04908ef84cd8260ae refs/heads/Spring24
+36a307731b718a2678e552e2d776f289af56db8b refs/heads/master
+4ebec587a4f0e26bdf474ec916efd39533d9e623 refs/heads/notebook_branch
+21cfa6d20e15a48a64d6ba1db988ae58009452cb refs/heads/summer24
