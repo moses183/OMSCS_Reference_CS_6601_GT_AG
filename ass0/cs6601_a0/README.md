@@ -113,6 +113,8 @@ We will be using multiple python packages throughout this class. Here are some o
 
 <!-- You can see the complete list of packages and required versions in [./requirements.txt](./requirements.txt). -->
 
+winget install -e --id Anaconda.Miniconda3
+
 Making sure that you are in an active Conda environment (i.e. `(ai_env)` as seen in the setup), you can install all the packages for an assignment by using the command ``pip install -r requirements.txt``, if the assignment comes with a `requirements.txt` file.
 
 Please navigate to your cloned Assignment 0 directory (i.e. `cs6601_a0`), activate your environment (`conda activate ai_env`), and run `pip install -r requirements.txt`.
