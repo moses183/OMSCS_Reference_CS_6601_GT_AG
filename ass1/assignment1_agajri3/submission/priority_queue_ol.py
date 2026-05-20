@@ -44,40 +44,30 @@ class PriorityQueue(object):
             The node with the highest priority.
         """
 
-        # TODO: finish this function!͏︅͏︀͏︋͏︋͏󠄌͏󠄎͏︀͏󠄐͏󠄃͏︃
-        
-        # Obtain the top value͏︅͏︀͏︋͏︋͏󠄌͏󠄎͏︀͏󠄐͏󠄃͏︃
-        top_value = self.top()
+        first_entry = self.queue[0]
+        final_entry = self.queue.pop()
 
-        # Re-heapify the queue͏︅͏︀͏︋͏︋͏󠄌͏󠄎͏︀͏󠄐͏󠄃͏︃
-        # 1) Replace Top with Bottom͏︅͏︀͏︋͏︋͏󠄌͏󠄎͏︀͏󠄐͏󠄃͏︃
-        self.queue[0] = self.queue[-1]
+        if self.size() > 0:
+            self.queue[0] = final_entry
+            current_index = 0
 
-        # 2) Delete Bottom͏︅͏︀͏︋͏︋͏󠄌͏󠄎͏︀͏󠄐͏󠄃͏︃
-        self.queue.pop()
+            while True:
+                left_child = (2 * current_index) + 1
+                right_child = left_child + 1
+                better_child = current_index
 
-        # 3) Bubble down until no more swapping occurs͏︅͏︀͏︋͏︋͏󠄌͏󠄎͏︀͏󠄐͏󠄃͏︃
-        i = 0
-        i_left = (i*2) + 1
-        i_right = (i*2) + 2
-        while (i_left < self.size()) or (i_right < self.size()):
-            i_swap = i
-            # locate the smallest node out of parent, left child, and right child͏︅͏︀͏︋͏︋͏󠄌͏󠄎͏︀͏󠄐͏󠄃͏︃
-            if (i_left < self.size()) and self.compare(i_left, i_swap):
-                i_swap = i_left
-            if (i_right < self.size()) and self.compare(i_right, i_swap):
-                i_swap = i_right
-            # Perform the swap͏︅͏︀͏︋͏︋͏󠄌͏󠄎͏︀͏󠄐͏󠄃͏︃
-            if (i_swap == i):
-                # no swapping, we are done͏︅͏︀͏︋͏︋͏󠄌͏󠄎͏︀͏󠄐͏󠄃͏︃
-                break
-            else:
-                self.swap(i, i_swap)
-                i = i_swap
-                i_left = (i*2) + 1
-                i_right = (i*2) + 2
-        
-        return top_value
+                if left_child < self.size() and self.compare(left_child, better_child):
+                    better_child = left_child
+                if right_child < self.size() and self.compare(right_child, better_child):
+                    better_child = right_child
+
+                if better_child == current_index:
+                    break
+
+                self.swap(current_index, better_child)
+                current_index = better_child
+
+        return first_entry[1]
 
     def remove(self, node):
         """
@@ -110,24 +100,18 @@ class PriorityQueue(object):
             Provided in the form of (int priority, any type payload)
         """
 
-        # TODO: finish this function!͏︅͏︀͏︋͏︋͏󠄌͏󠄎͏︀͏󠄐͏󠄃͏︃
-
-        # Wrap the node in a counter͏︅͏︀͏︋͏︋͏󠄌͏󠄎͏︀͏󠄐͏󠄃͏︃
-        wrapped_node = (self.counter, node)
-
-        # Update the counter͏︅͏︀͏︋͏︋͏󠄌͏󠄎͏︀͏󠄐͏󠄃͏︃
+        entry = (self.counter, node)
         self.counter += 1
+        self.queue.append(entry)
 
-        # Append the node ot the end of the queue͏︅͏︀͏︋͏︋͏󠄌͏󠄎͏︀͏󠄐͏󠄃͏︃
-        self.queue.append(wrapped_node)
+        child_index = self.size() - 1
+        while child_index > 0:
+            parent_index = (child_index - 1) // 2
+            if not self.compare(child_index, parent_index):
+                break
 
-        # Bubble up the node until no swapping occurs͏︅͏︀͏︋͏︋͏󠄌͏󠄎͏︀͏󠄐͏󠄃͏︃
-        i = self.size() - 1
-        i_parent = (i-1)//2
-        while (i != 0) and self.compare(i, i_parent):
-            self.swap(i, i_parent)
-            i = i_parent
-            i_parent = (i-1)//2
+            self.swap(child_index, parent_index)
+            child_index = parent_index
 
     def __contains__(self, key):
         """
@@ -194,10 +178,9 @@ class PriorityQueue(object):
             Means queue[a] has higher priority than queue[b]
         """
 
-        # Compare priorities͏︅͏︀͏︋͏︋͏󠄌͏󠄎͏︀͏󠄐͏󠄃͏︃
-        if (self.queue[a][1][0] < self.queue[b][1][0]):
-            return True
-        elif (self.queue[a][1][0] == self.queue[b][1][0]) and (self.queue[a][0] < self.queue[b][0]):
-            return True
-        else:
-            return False
+        order_a, node_a = self.queue[a]
+        order_b, node_b = self.queue[b]
+        priority_a = node_a[0]
+        priority_b = node_b[0]
+
+        return (priority_a, order_a) < (priority_b, order_b)
