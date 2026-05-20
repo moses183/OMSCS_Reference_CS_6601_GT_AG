@@ -1,0 +1,5 @@
+test_bi_a_star_euclidean_romania - Valid paths tests passed.
+test_bi_a_star_euclidean_romania - Optimal paths tests passed.
+Path ['t', 'a', 's', 'r', 'p', 'b', 'u'] for goal nodes ('t', 'u') explored more nodes than allowed maximum. Explored count was 13 and max allowed count was 12
+Path ['u', 'b', 'p', 'r', 's', 'a', 't'] for goal nodes ('u', 't') explored more nodes than allowed maximum. Explored count was 13 and max allowed count was 12
+test_bi_a_star_euclidean_romania - 2 tests failed.

@@ -1,0 +1,4 @@
+test_bfs_romania - Valid paths tests passed.
+test_bfs_romania - Optimal paths tests passed.
+test_bfs_romania - Explored nodes tests passed.
+All test_bfs_romania passed.

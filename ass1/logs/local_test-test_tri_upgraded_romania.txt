@@ -1,0 +1,308 @@
+test_tri_upgraded_romania - Valid paths tests passed.
+test_tri_upgraded_romania - Optimal paths tests passed.
+Path ['u', 'b', 'p', 'r', 's', 'a', 't', 'l'] for goal nodes ('a', 'u', 'l') explored more nodes than allowed maximum. Explored count was 36 and max allowed count was 20
+Path ['t', 'a', 's', 'r', 'p', 'b', 'u', 'v', 'i', 'n'] for goal nodes ('s', 't', 'n') explored more nodes than allowed maximum. Explored count was 35 and max allowed count was 31
+Path ['c', 'p', 'b', 'g', 'b', 'u', 'v'] for goal nodes ('g', 'c', 'v') explored more nodes than allowed maximum. Explored count was 24 and max allowed count was 10
+Path ['r', 'p', 'b', 'u', 'v', 'i'] for goal nodes ('u', 'r', 'i') explored more nodes than allowed maximum. Explored count was 18 and max allowed count was 10
+Path ['m', 'd', 'c', 'p', 'b', 'u', 'v'] for goal nodes ('u', 'm', 'v') explored more nodes than allowed maximum. Explored count was 33 and max allowed count was 18
+Path ['f', 's', 'r', 'p', 'c', 'd'] for goal nodes ('p', 'f', 'd') explored more nodes than allowed maximum. Explored count was 16 and max allowed count was 12
+Path ['m', 'd', 'c', 'p', 'r', 's', 'o'] for goal nodes ('p', 'm', 'o') explored more nodes than allowed maximum. Explored count was 21 and max allowed count was 15
+Path ['d', 'm', 'l', 't', 'a', 'z', 'o'] for goal nodes ('z', 'd', 'o') explored more nodes than allowed maximum. Explored count was 17 and max allowed count was 16
+Path ['z', 'a', 't', 'l', 'm', 'd', 'c', 'p', 'b', 'u'] for goal nodes ('z', 'u', 'm') explored more nodes than allowed maximum. Explored count was 35 and max allowed count was 19
+Path ['s', 'r', 'c', 'p', 'b', 'u'] for goal nodes ('s', 'u', 'c') explored more nodes than allowed maximum. Explored count was 32 and max allowed count was 12
+Path ['d', 'c', 'p', 'b', 'u', 'h', 'e'] for goal nodes ('d', 'e', 'h') explored more nodes than allowed maximum. Explored count was 23 and max allowed count was 16
+Path ['t', 'a', 's', 'r', 'p', 'b', 'g', 'b', 'u', 'h'] for goal nodes ('t', 'g', 'h') explored more nodes than allowed maximum. Explored count was 42 and max allowed count was 21
+Path ['z', 'o', 's', 'r', 'p', 'b'] for goal nodes ('z', 'b', 'o') explored more nodes than allowed maximum. Explored count was 29 and max allowed count was 13
+Path ['r', 'c', 'd', 'm', 'l'] for goal nodes ('d', 'r', 'l') explored more nodes than allowed maximum. Explored count was 16 and max allowed count was 13
+Path ['p', 'c', 'd'] for goal nodes ('p', 'c', 'd') explored more nodes than allowed maximum. Explored count was 12 and max allowed count was 7
+Path ['r', 'c', 'd', 'm', 'l'] for goal nodes ('c', 'r', 'l') explored more nodes than allowed maximum. Explored count was 17 and max allowed count was 14
+Path ['z', 'o', 's', 'r'] for goal nodes ('z', 'r', 'o') explored more nodes than allowed maximum. Explored count was 17 and max allowed count was 8
+Path ['i', 'v', 'u', 'h', 'u', 'b', 'p', 'c', 'd', 'm', 'l'] for goal nodes ('h', 'i', 'l') explored more nodes than allowed maximum. Explored count was 30 and max allowed count was 27
+Path ['d', 'c', 'p', 'b', 'u', 'v', 'u', 'h', 'e'] for goal nodes ('d', 'e', 'v') explored more nodes than allowed maximum. Explored count was 27 and max allowed count was 16
+Path ['c', 'p', 'b', 'u', 'v', 'i', 'n'] for goal nodes ('b', 'c', 'n') explored more nodes than allowed maximum. Explored count was 24 and max allowed count was 14
+Path ['b', 'u', 'v', 'i'] for goal nodes ('b', 'u', 'i') explored more nodes than allowed maximum. Explored count was 16 and max allowed count was 8
+Path ['c', 'r', 's', 'f', 's', 'o'] for goal nodes ('f', 'c', 'o') explored more nodes than allowed maximum. Explored count was 20 and max allowed count was 10
+Path ['g', 'b', 'u', 'h'] for goal nodes ('b', 'g', 'h') explored more nodes than allowed maximum. Explored count was 11 and max allowed count was 8
+Path ['m', 'd', 'c', 'p', 'b', 'u', 'v', 'i'] for goal nodes ('m', 'i', 'v') explored more nodes than allowed maximum. Explored count was 32 and max allowed count was 22
+Path ['r', 'p', 'b', 'g', 'b', 'u', 'v', 'i', 'n'] for goal nodes ('g', 'r', 'n') explored more nodes than allowed maximum. Explored count was 19 and max allowed count was 17
+Path ['g', 'b', 'p', 'c', 'd'] for goal nodes ('p', 'g', 'd') explored more nodes than allowed maximum. Explored count was 16 and max allowed count was 9
+Path ['c', 'r', 'p', 'b', 'u', 'h', 'e'] for goal nodes ('c', 'r', 'e') explored more nodes than allowed maximum. Explored count was 19 and max allowed count was 13
+Path ['b', 'p', 'c', 'r', 's', 'o'] for goal nodes ('b', 'c', 'o') explored more nodes than allowed maximum. Explored count was 23 and max allowed count was 13
+Path ['z', 'a', 's', 'r', 'p', 'b', 'u', 'h', 'u', 'v', 'i', 'n'] for goal nodes ('z', 'h', 'n') explored more nodes than allowed maximum. Explored count was 36 and max allowed count was 21
+Path ['m', 'd', 'c', 'p', 'b', 'u', 'h'] for goal nodes ('c', 'm', 'h') explored more nodes than allowed maximum. Explored count was 30 and max allowed count was 11
+Path ['z', 'a', 's', 'r', 'p', 'b', 'g'] for goal nodes ('z', 'b', 'g') explored more nodes than allowed maximum. Explored count was 33 and max allowed count was 16
+Path ['p', 'b', 'u', 'h'] for goal nodes ('u', 'p', 'h') explored more nodes than allowed maximum. Explored count was 12 and max allowed count was 8
+Path ['v', 'u', 'b', 'p', 'c', 'r', 's', 'o'] for goal nodes ('c', 'v', 'o') explored more nodes than allowed maximum. Explored count was 38 and max allowed count was 16
+Path ['u', 'b', 'p', 'r', 'c', 'd'] for goal nodes ('u', 'd', 'r') explored more nodes than allowed maximum. Explored count was 22 and max allowed count was 14
+Path ['m', 'd', 'c', 'p', 'b', 'u', 'v', 'i'] for goal nodes ('p', 'm', 'i') explored more nodes than allowed maximum. Explored count was 33 and max allowed count was 16
+Path ['t', 'a', 's', 'r', 'p', 'b', 'u', 'h'] for goal nodes ('s', 't', 'h') explored more nodes than allowed maximum. Explored count was 37 and max allowed count was 15
+Path ['a', 's', 'f', 'b', 'u', 'v'] for goal nodes ('a', 'f', 'v') explored more nodes than allowed maximum. Explored count was 30 and max allowed count was 13
+Path ['m', 'l', 't', 'a', 'z', 'o', 's', 'r', 'p', 'b', 'u', 'v', 'i', 'n'] for goal nodes ('m', 'n', 'o') explored more nodes than allowed maximum. Explored count was 28 and max allowed count was 26
+Path ['r', 'p', 'b', 'u', 'h', 'e'] for goal nodes ('b', 'r', 'e') explored more nodes than allowed maximum. Explored count was 17 and max allowed count was 11
+Path ['h', 'u', 'v', 'i', 'n'] for goal nodes ('h', 'i', 'n') explored more nodes than allowed maximum. Explored count was 11 and max allowed count was 10
+Path ['a', 's', 'r', 'p', 'b', 'u', 'v', 'i', 'n'] for goal nodes ('a', 'v', 'n') explored more nodes than allowed maximum. Explored count was 27 and max allowed count was 22
+Path ['m', 'd', 'c', 'r', 's', 'f', 'b', 'u', 'h'] for goal nodes ('f', 'm', 'h') explored more nodes than allowed maximum. Explored count was 26 and max allowed count was 18
+Path ['g', 'b', 'p', 'c', 'd', 'm'] for goal nodes ('g', 'd', 'm') explored more nodes than allowed maximum. Explored count was 22 and max allowed count was 14
+Path ['s', 'r', 'p', 'b', 'g', 'b', 'u', 'v', 'i', 'n'] for goal nodes ('s', 'g', 'n') explored more nodes than allowed maximum. Explored count was 31 and max allowed count was 18
+Path ['d', 'c', 'p', 'b', 'u', 'v', 'i'] for goal nodes ('c', 'd', 'i') explored more nodes than allowed maximum. Explored count was 20 and max allowed count was 18
+Path ['m', 'd', 'c', 'r', 'p', 'b', 'u', 'h'] for goal nodes ('r', 'm', 'h') explored more nodes than allowed maximum. Explored count was 35 and max allowed count was 14
+Path ['r', 'p', 'b', 'u', 'h'] for goal nodes ('p', 'r', 'h') explored more nodes than allowed maximum. Explored count was 18 and max allowed count was 9
+Path ['d', 'm', 'l', 't', 'a', 'z', 'o'] for goal nodes ('a', 'd', 'o') explored more nodes than allowed maximum. Explored count was 21 and max allowed count was 15
+Path ['i', 'v', 'u', 'b', 'p', 'c', 'd', 'm', 'l'] for goal nodes ('c', 'i', 'l') explored more nodes than allowed maximum. Explored count was 41 and max allowed count was 17
+Path ['s', 'r', 'p', 'b', 'u', 'h'] for goal nodes ('s', 'u', 'h') explored more nodes than allowed maximum. Explored count was 24 and max allowed count was 11
+Path ['l', 't', 'a', 'z', 'o'] for goal nodes ('a', 'l', 'o') explored more nodes than allowed maximum. Explored count was 14 and max allowed count was 9
+Path ['p', 'b', 'u', 'v', 'i'] for goal nodes ('p', 'i', 'v') explored more nodes than allowed maximum. Explored count was 15 and max allowed count was 12
+Path ['z', 'a', 's', 'r', 'p', 'b'] for goal nodes ('a', 'z', 'b') explored more nodes than allowed maximum. Explored count was 27 and max allowed count was 12
+Path ['u', 'b', 'p', 'r', 's', 'f'] for goal nodes ('u', 'f', 'r') explored more nodes than allowed maximum. Explored count was 17 and max allowed count was 11
+Path ['a', 't', 'l', 'm'] for goal nodes ('a', 't', 'm') explored more nodes than allowed maximum. Explored count was 11 and max allowed count was 8
+Path ['d', 'c', 'r', 's', 'f', 's', 'o'] for goal nodes ('f', 'd', 'o') explored more nodes than allowed maximum. Explored count was 17 and max allowed count was 16
+Path ['a', 's', 'r', 'p', 'b', 'u', 'v', 'i'] for goal nodes ('a', 'u', 'i') explored more nodes than allowed maximum. Explored count was 33 and max allowed count was 17
+Path ['p', 'b', 'u', 'v', 'u', 'h', 'e'] for goal nodes ('p', 'e', 'v') explored more nodes than allowed maximum. Explored count was 18 and max allowed count was 10
+Path ['z', 'a', 's', 'r', 'c', 'p', 'b', 'g'] for goal nodes ('z', 'g', 'c') explored more nodes than allowed maximum. Explored count was 24 and max allowed count was 15
+Path ['s', 'r', 'p', 'c'] for goal nodes ('s', 'p', 'c') explored more nodes than allowed maximum. Explored count was 10 and max allowed count was 9
+Path ['v', 'u', 'b', 'p', 'r', 's', 'o', 'z', 'a', 't', 'l'] for goal nodes ('v', 'l', 'o') explored more nodes than allowed maximum. Explored count was 36 and max allowed count was 24
+Path ['t', 'a', 's', 'r', 'p', 'b', 'u', 'v'] for goal nodes ('t', 'p', 'v') explored more nodes than allowed maximum. Explored count was 43 and max allowed count was 16
+Path ['i', 'v', 'u', 'b', 'p', 'c', 'd', 'm', 'l'] for goal nodes ('p', 'i', 'l') explored more nodes than allowed maximum. Explored count was 43 and max allowed count was 17
+Path ['v', 'u', 'b', 'p', 'r', 's', 'o'] for goal nodes ('s', 'v', 'o') explored more nodes than allowed maximum. Explored count was 31 and max allowed count was 18
+Path ['a', 's', 'r', 'c', 'p', 'b', 'u', 'v', 'i', 'n'] for goal nodes ('a', 'c', 'n') explored more nodes than allowed maximum. Explored count was 31 and max allowed count was 28
+Path ['c', 'p', 'b', 'g', 'b', 'u', 'v', 'i'] for goal nodes ('g', 'c', 'i') explored more nodes than allowed maximum. Explored count was 21 and max allowed count was 14
+Path ['d', 'c', 'r', 's', 'f', 'b', 'u', 'h', 'e'] for goal nodes ('f', 'd', 'e') explored more nodes than allowed maximum. Explored count was 24 and max allowed count was 16
+Path ['z', 'a', 's', 'f', 'b', 'u'] for goal nodes ('z', 'u', 'f') explored more nodes than allowed maximum. Explored count was 33 and max allowed count was 13
+Path ['t', 'a', 's', 'f', 's', 'r', 'p'] for goal nodes ('t', 'p', 'f') explored more nodes than allowed maximum. Explored count was 21 and max allowed count was 16
+Path ['s', 'r', 'p', 'b', 'g', 'b', 'u', 'v', 'i'] for goal nodes ('s', 'g', 'i') explored more nodes than allowed maximum. Explored count was 28 and max allowed count was 15
+Path ['a', 's', 'r', 'c'] for goal nodes ('a', 'c', 'r') explored more nodes than allowed maximum. Explored count was 16 and max allowed count was 8
+Path ['v', 'u', 'b', 'p', 'r', 's', 'a', 't', 'l'] for goal nodes ('s', 'v', 'l') explored more nodes than allowed maximum. Explored count was 38 and max allowed count was 21
+Path ['m', 'd', 'c', 'p', 'b', 'u', 'h'] for goal nodes ('d', 'm', 'h') explored more nodes than allowed maximum. Explored count was 34 and max allowed count was 17
+Path ['t', 'a', 's', 'r', 'p', 'b'] for goal nodes ('t', 'b', 'p') explored more nodes than allowed maximum. Explored count was 41 and max allowed count was 19
+Path ['u', 'b', 'p', 'r', 's', 'o', 'z', 'a', 't', 'l', 'm'] for goal nodes ('u', 'm', 'o') explored more nodes than allowed maximum. Explored count was 33 and max allowed count was 19
+Path ['t', 'a', 's', 'f', 'b'] for goal nodes ('t', 'b', 'f') explored more nodes than allowed maximum. Explored count was 31 and max allowed count was 14
+Path ['c', 'p', 'b', 'u', 'h'] for goal nodes ('u', 'c', 'h') explored more nodes than allowed maximum. Explored count was 20 and max allowed count was 10
+Path ['f', 'b', 'u', 'h', 'e'] for goal nodes ('u', 'f', 'e') explored more nodes than allowed maximum. Explored count was 17 and max allowed count was 11
+Path ['i', 'v', 'u', 'b', 'p', 'c', 'd', 'c', 'r', 's', 'o'] for goal nodes ('d', 'i', 'o') explored more nodes than allowed maximum. Explored count was 29 and max allowed count was 25
+Path ['f', 's', 'a', 't', 'l', 'm'] for goal nodes ('f', 'm', 'l') explored more nodes than allowed maximum. Explored count was 20 and max allowed count was 19
+Path ['u', 'b', 'p', 'c', 'd'] for goal nodes ('b', 'u', 'd') explored more nodes than allowed maximum. Explored count was 22 and max allowed count was 12
+Path ['d', 'c', 'p', 'b', 'u', 'v'] for goal nodes ('p', 'd', 'v') explored more nodes than allowed maximum. Explored count was 29 and max allowed count was 10
+Path ['i', 'v', 'u', 'b', 'p', 'c', 'd', 'm', 'l'] for goal nodes ('d', 'i', 'l') explored more nodes than allowed maximum. Explored count was 34 and max allowed count was 22
+Path ['a', 's', 'r', 'p', 'b', 'u', 'h', 'u', 'v', 'i'] for goal nodes ('a', 'h', 'i') explored more nodes than allowed maximum. Explored count was 34 and max allowed count was 19
+Path ['m', 'd', 'c', 'p', 'b', 'u', 'h', 'u', 'v', 'i'] for goal nodes ('m', 'h', 'i') explored more nodes than allowed maximum. Explored count was 30 and max allowed count was 22
+Path ['e', 'h', 'u', 'v', 'u', 'b', 'p', 'c', 'd', 'm', 'l'] for goal nodes ('e', 'v', 'l') explored more nodes than allowed maximum. Explored count was 32 and max allowed count was 24
+Path ['p', 'r', 's', 'o', 'z', 'a', 't', 'l'] for goal nodes ('p', 'l', 'o') explored more nodes than allowed maximum. Explored count was 20 and max allowed count was 17
+Path ['z', 'o', 's', 'r', 'p'] for goal nodes ('z', 'p', 'o') explored more nodes than allowed maximum. Explored count was 16 and max allowed count was 10
+Path ['c', 'p', 'b', 'u', 'v', 'u', 'h', 'e'] for goal nodes ('c', 'e', 'v') explored more nodes than allowed maximum. Explored count was 23 and max allowed count was 12
+Path ['z', 'a', 't', 'l', 'm', 'd', 'c', 'p', 'b', 'u', 'h'] for goal nodes ('z', 'd', 'h') explored more nodes than allowed maximum. Explored count was 35 and max allowed count was 16
+Path ['s', 'r', 'p', 'b', 'u', 'h', 'e'] for goal nodes ('s', 'r', 'e') explored more nodes than allowed maximum. Explored count was 24 and max allowed count was 15
+Path ['m', 'd', 'c', 'p', 'b', 'u', 'v', 'i'] for goal nodes ('c', 'm', 'i') explored more nodes than allowed maximum. Explored count was 37 and max allowed count was 18
+Path ['t', 'a', 's', 'r', 'p', 'b', 'u', 'v', 'i', 'n'] for goal nodes ('t', 'i', 'n') explored more nodes than allowed maximum. Explored count was 28 and max allowed count was 26
+Path ['u', 'b', 'p', 'c', 'd', 'm'] for goal nodes ('u', 'd', 'm') explored more nodes than allowed maximum. Explored count was 30 and max allowed count was 15
+Path ['s', 'r', 'p', 'b', 'u', 'v', 'i'] for goal nodes ('s', 'p', 'i') explored more nodes than allowed maximum. Explored count was 32 and max allowed count was 15
+Path ['n', 'i', 'v', 'u', 'b', 'p', 'r', 's', 'o'] for goal nodes ('u', 'n', 'o') explored more nodes than allowed maximum. Explored count was 31 and max allowed count was 17
+Path ['g', 'b', 'p', 'r', 's', 'o'] for goal nodes ('b', 'g', 'o') explored more nodes than allowed maximum. Explored count was 29 and max allowed count was 11
+Path ['t', 'a', 's', 'r', 'p', 'b', 'u'] for goal nodes ('t', 'u', 'r') explored more nodes than allowed maximum. Explored count was 41 and max allowed count was 13
+Path ['m', 'd', 'c', 'r', 's', 'f', 'b', 'u', 'v'] for goal nodes ('f', 'm', 'v') explored more nodes than allowed maximum. Explored count was 33 and max allowed count was 20
+Path ['a', 's', 'r', 'p', 'b', 'u'] for goal nodes ('a', 'b', 'u') explored more nodes than allowed maximum. Explored count was 37 and max allowed count was 11
+Path ['a', 's', 'r', 'p', 'b', 'u', 'h', 'e'] for goal nodes ('a', 'p', 'e') explored more nodes than allowed maximum. Explored count was 36 and max allowed count was 13
+Path ['s', 'r', 'p', 'b', 'u', 'v', 'i', 'n'] for goal nodes ('s', 'b', 'n') explored more nodes than allowed maximum. Explored count was 31 and max allowed count was 16
+Path ['t', 'l', 'm', 'd', 'c', 'p'] for goal nodes ('t', 'p', 'c') explored more nodes than allowed maximum. Explored count was 23 and max allowed count was 13
+Path ['a', 's', 'r', 'p', 'b', 'g', 'b', 'u', 'v'] for goal nodes ('a', 'g', 'v') explored more nodes than allowed maximum. Explored count was 34 and max allowed count was 17
+Path ['h', 'u', 'b', 'p', 'r', 's', 'o'] for goal nodes ('r', 'h', 'o') explored more nodes than allowed maximum. Explored count was 26 and max allowed count was 11
+Path ['m', 'd', 'c', 'p', 'b', 'g', 'b', 'u', 'v', 'i', 'n'] for goal nodes ('g', 'm', 'n') explored more nodes than allowed maximum. Explored count was 31 and max allowed count was 19
+Path ['p', 'r', 's', 'a', 't', 'l', 'm'] for goal nodes ('a', 'p', 'm') explored more nodes than allowed maximum. Explored count was 24 and max allowed count was 14
+Path ['u', 'b', 'p', 'r', 's', 'f'] for goal nodes ('u', 'p', 'f') explored more nodes than allowed maximum. Explored count was 12 and max allowed count was 11
+Path ['s', 'r', 'p', 'b', 'u', 'v', 'i', 'n'] for goal nodes ('s', 'v', 'n') explored more nodes than allowed maximum. Explored count was 28 and max allowed count was 17
+Path ['z', 'a', 's', 'r'] for goal nodes ('a', 'z', 'r') explored more nodes than allowed maximum. Explored count was 14 and max allowed count was 9
+Path ['s', 'f', 'b', 'u', 'v'] for goal nodes ('s', 'f', 'v') explored more nodes than allowed maximum. Explored count was 28 and max allowed count was 14
+Path ['m', 'd', 'c', 'p', 'b', 'u', 'h'] for goal nodes ('u', 'm', 'h') explored more nodes than allowed maximum. Explored count was 33 and max allowed count was 20
+Path ['t', 'a', 's', 'f', 'b', 'u'] for goal nodes ('t', 'u', 'f') explored more nodes than allowed maximum. Explored count was 34 and max allowed count was 14
+Path ['i', 'v', 'u', 'b', 'p', 'r', 'c', 'd', 'm', 'l'] for goal nodes ('r', 'i', 'l') explored more nodes than allowed maximum. Explored count was 37 and max allowed count was 19
+Path ['g', 'b', 'p', 'c'] for goal nodes ('b', 'g', 'c') explored more nodes than allowed maximum. Explored count was 12 and max allowed count was 10
+Path ['a', 's', 'r', 'p', 'b', 'u', 'h'] for goal nodes ('a', 'p', 'h') explored more nodes than allowed maximum. Explored count was 29 and max allowed count was 11
+Path ['v', 'u', 'b', 'g', 'b', 'p', 'c', 'd', 'm', 'l'] for goal nodes ('g', 'v', 'l') explored more nodes than allowed maximum. Explored count was 33 and max allowed count was 21
+Path ['r', 's', 'a', 't', 'l'] for goal nodes ('a', 'r', 'l') explored more nodes than allowed maximum. Explored count was 16 and max allowed count was 10
+Path ['t', 'a', 'z', 'o', 's', 'r', 'p', 'b', 'g'] for goal nodes ('t', 'g', 'o') explored more nodes than allowed maximum. Explored count was 31 and max allowed count was 18
+Path ['c', 'p', 'b', 'u', 'v'] for goal nodes ('u', 'c', 'v') explored more nodes than allowed maximum. Explored count was 22 and max allowed count was 9
+Path ['f', 's', 'r', 'p', 'b', 'u', 'v', 'i'] for goal nodes ('p', 'f', 'i') explored more nodes than allowed maximum. Explored count was 16 and max allowed count was 15
+Path ['c', 'r', 's', 'o'] for goal nodes ('s', 'c', 'o') explored more nodes than allowed maximum. Explored count was 17 and max allowed count was 8
+Path ['e', 'h', 'u', 'v', 'u', 'b', 'p', 'r', 's', 'o'] for goal nodes ('e', 'v', 'o') explored more nodes than allowed maximum. Explored count was 24 and max allowed count was 18
+Path ['f', 'b', 'u', 'h'] for goal nodes ('u', 'f', 'h') explored more nodes than allowed maximum. Explored count was 19 and max allowed count was 11
+Path ['p', 'b', 'g', 'b', 'u', 'h'] for goal nodes ('p', 'g', 'h') explored more nodes than allowed maximum. Explored count was 15 and max allowed count was 9
+Path ['a', 't', 'l', 'm', 'd', 'c'] for goal nodes ('a', 'c', 'm') explored more nodes than allowed maximum. Explored count was 15 and max allowed count was 10
+Path ['i', 'v', 'u', 'b', 'g', 'b', 'p', 'c', 'd', 'm', 'l'] for goal nodes ('g', 'i', 'l') explored more nodes than allowed maximum. Explored count was 35 and max allowed count was 20
+Path ['a', 't', 'l', 'm', 'd'] for goal nodes ('a', 'd', 'm') explored more nodes than allowed maximum. Explored count was 13 and max allowed count was 11
+Path ['s', 'f', 'b', 'u'] for goal nodes ('s', 'u', 'f') explored more nodes than allowed maximum. Explored count was 22 and max allowed count was 9
+Path ['i', 'v', 'u', 'b', 'p', 'r', 's', 'o'] for goal nodes ('i', 'v', 'o') explored more nodes than allowed maximum. Explored count was 29 and max allowed count was 20
+Path ['f', 'b', 'g', 'b', 'u', 'v'] for goal nodes ('g', 'f', 'v') explored more nodes than allowed maximum. Explored count was 19 and max allowed count was 11
+Path ['g', 'b', 'f', 's', 'r', 'c'] for goal nodes ('g', 'f', 'c') explored more nodes than allowed maximum. Explored count was 17 and max allowed count was 11
+Path ['c', 'p', 'b', 'u', 'v', 'i', 'n'] for goal nodes ('p', 'c', 'n') explored more nodes than allowed maximum. Explored count was 24 and max allowed count was 22
+Path ['a', 's', 'r', 'p', 'b', 'g'] for goal nodes ('a', 's', 'g') explored more nodes than allowed maximum. Explored count was 27 and max allowed count was 12
+Path ['f', 'b', 'u', 'h'] for goal nodes ('b', 'f', 'h') explored more nodes than allowed maximum. Explored count was 15 and max allowed count was 10
+Path ['a', 's', 'r', 'p', 'b', 'g', 'b', 'u', 'v', 'i'] for goal nodes ('a', 'g', 'i') explored more nodes than allowed maximum. Explored count was 37 and max allowed count was 18
+Path ['z', 'a', 's', 'r', 'p', 'b', 'u', 'v'] for goal nodes ('z', 'p', 'v') explored more nodes than allowed maximum. Explored count was 35 and max allowed count was 14
+Path ['z', 'a', 's', 'r', 'p', 'b', 'u'] for goal nodes ('z', 'u', 'r') explored more nodes than allowed maximum. Explored count was 33 and max allowed count was 13
+Path ['s', 'r', 'p', 'b', 'g'] for goal nodes ('s', 'b', 'g') explored more nodes than allowed maximum. Explored count was 15 and max allowed count was 11
+Path ['m', 'd', 'c', 'r', 'p', 'b', 'u', 'v'] for goal nodes ('r', 'm', 'v') explored more nodes than allowed maximum. Explored count was 36 and max allowed count was 16
+Path ['t', 'a', 's', 'r', 'p', 'b', 'u', 'h'] for goal nodes ('t', 'p', 'h') explored more nodes than allowed maximum. Explored count was 41 and max allowed count was 16
+Path ['s', 'r', 'p', 'b', 'u', 'v'] for goal nodes ('s', 'r', 'v') explored more nodes than allowed maximum. Explored count was 23 and max allowed count was 16
+Path ['m', 'l', 't', 'a', 'z', 'o'] for goal nodes ('a', 'm', 'o') explored more nodes than allowed maximum. Explored count was 18 and max allowed count was 12
+Path ['a', 's', 'r', 'p', 'b'] for goal nodes ('a', 'b', 'p') explored more nodes than allowed maximum. Explored count was 30 and max allowed count was 9
+Path ['v', 'u', 'b', 'p', 'c', 'd', 'm', 'l'] for goal nodes ('m', 'v', 'l') explored more nodes than allowed maximum. Explored count was 34 and max allowed count was 20
+Path ['m', 'd', 'c', 'p', 'b', 'u', 'v', 'i', 'n'] for goal nodes ('m', 'v', 'n') explored more nodes than allowed maximum. Explored count was 27 and max allowed count was 25
+Path ['c', 'r', 's', 'a', 'z', 'o'] for goal nodes ('a', 'c', 'o') explored more nodes than allowed maximum. Explored count was 16 and max allowed count was 13
+Path ['z', 'a', 's', 'r', 'c'] for goal nodes ('a', 'z', 'c') explored more nodes than allowed maximum. Explored count was 21 and max allowed count was 12
+Path ['g', 'b', 'p', 'r', 's', 'a', 't', 'l'] for goal nodes ('a', 'g', 'l') explored more nodes than allowed maximum. Explored count was 27 and max allowed count was 15
+Path ['s', 'r', 'p', 'b', 'u', 'v', 'i'] for goal nodes ('s', 'r', 'i') explored more nodes than allowed maximum. Explored count was 27 and max allowed count was 20
+Path ['p', 'b', 'u', 'v'] for goal nodes ('b', 'p', 'v') explored more nodes than allowed maximum. Explored count was 16 and max allowed count was 9
+Path ['g', 'b', 'p', 'c', 'd', 'm'] for goal nodes ('p', 'g', 'm') explored more nodes than allowed maximum. Explored count was 21 and max allowed count was 13
+Path ['f', 's', 'r', 'c', 'd', 'm', 'l'] for goal nodes ('f', 'd', 'l') explored more nodes than allowed maximum. Explored count was 21 and max allowed count was 18
+Path ['g', 'b', 'p', 'r', 's', 'o', 'z', 'a', 't', 'l', 'm'] for goal nodes ('g', 'm', 'o') explored more nodes than allowed maximum. Explored count was 25 and max allowed count was 18
+Path ['t', 'a', 's', 'r', 'p', 'b', 'u', 'v', 'i', 'n'] for goal nodes ('t', 'v', 'n') explored more nodes than allowed maximum. Explored count was 32 and max allowed count was 27
+Path ['z', 'a', 's', 'r', 'p', 'b', 'u', 'h', 'e'] for goal nodes ('z', 's', 'e') explored more nodes than allowed maximum. Explored count was 29 and max allowed count was 14
+Path ['c', 'r', 's', 'f', 'b', 'u', 'v', 'i', 'n'] for goal nodes ('f', 'c', 'n') explored more nodes than allowed maximum. Explored count was 22 and max allowed count was 21
+Path ['e', 'h', 'u', 'b', 'p', 'c', 'd', 'c', 'r', 's', 'o'] for goal nodes ('d', 'e', 'o') explored more nodes than allowed maximum. Explored count was 27 and max allowed count was 21
+Path ['n', 'i', 'v', 'u', 'b', 'p', 'r', 's', 'o'] for goal nodes ('r', 'n', 'o') explored more nodes than allowed maximum. Explored count was 32 and max allowed count was 25
+Path ['a', 's', 'r', 'c', 'p', 'b', 'u'] for goal nodes ('a', 'u', 'c') explored more nodes than allowed maximum. Explored count was 38 and max allowed count was 14
+Path ['z', 'a', 's', 'r', 'p', 'b', 'g'] for goal nodes ('z', 'p', 'g') explored more nodes than allowed maximum. Explored count was 26 and max allowed count was 13
+Path ['r', 'p', 'b', 'u', 'v', 'i'] for goal nodes ('r', 'i', 'v') explored more nodes than allowed maximum. Explored count was 21 and max allowed count was 15
+Path ['d', 'c', 'p', 'b', 'g', 'b', 'u', 'h'] for goal nodes ('g', 'd', 'h') explored more nodes than allowed maximum. Explored count was 24 and max allowed count was 13
+Path ['c', 'r', 'p', 'b', 'u', 'v', 'i', 'n'] for goal nodes ('c', 'r', 'n') explored more nodes than allowed maximum. Explored count was 26 and max allowed count was 24
+Path ['t', 'a', 's', 'f', 'b', 'u', 'v'] for goal nodes ('t', 'f', 'v') explored more nodes than allowed maximum. Explored count was 40 and max allowed count was 16
+Path ['a', 's', 'r', 'p', 'c', 'd'] for goal nodes ('a', 'p', 'd') explored more nodes than allowed maximum. Explored count was 20 and max allowed count was 13
+Path ['z', 'a', 's', 'r', 'p', 'b', 'u', 'h'] for goal nodes ('z', 'p', 'h') explored more nodes than allowed maximum. Explored count was 29 and max allowed count was 14
+Path ['f', 'b', 'u', 'b', 'p', 'c', 'd'] for goal nodes ('u', 'f', 'd') explored more nodes than allowed maximum. Explored count was 34 and max allowed count was 15
+Path ['z', 'a', 's', 'r', 'p'] for goal nodes ('z', 's', 'p') explored more nodes than allowed maximum. Explored count was 16 and max allowed count was 10
+Path ['d', 'c', 'r'] for goal nodes ('c', 'd', 'r') explored more nodes than allowed maximum. Explored count was 10 and max allowed count was 7
+Path ['z', 'o', 's'] for goal nodes ('z', 's', 'o') explored more nodes than allowed maximum. Explored count was 8 and max allowed count was 7
+Path ['g', 'b', 'p', 'r', 's', 'o'] for goal nodes ('s', 'g', 'o') explored more nodes than allowed maximum. Explored count was 25 and max allowed count was 12
+Path ['i', 'v', 'u', 'b', 'p', 'r', 's', 'a', 't', 'l'] for goal nodes ('a', 'i', 'l') explored more nodes than allowed maximum. Explored count was 32 and max allowed count was 25
+Path ['m', 'd', 'c', 'p', 'b', 'u', 'h', 'e'] for goal nodes ('d', 'm', 'e') explored more nodes than allowed maximum. Explored count was 31 and max allowed count was 18
+Path ['f', 's', 'r', 'c', 'd', 'm'] for goal nodes ('f', 'c', 'm') explored more nodes than allowed maximum. Explored count was 19 and max allowed count was 13
+Path ['b', 'p', 'c', 'd', 'm', 'l'] for goal nodes ('b', 'c', 'l') explored more nodes than allowed maximum. Explored count was 29 and max allowed count was 13
+Path ['b', 'p', 'r', 's', 'a', 'z', 'o'] for goal nodes ('a', 'b', 'o') explored more nodes than allowed maximum. Explored count was 28 and max allowed count was 13
+Path ['g', 'b', 'p', 'c', 'r', 's', 'o'] for goal nodes ('g', 'c', 'o') explored more nodes than allowed maximum. Explored count was 19 and max allowed count was 13
+Path ['m', 'l', 't', 'a', 'z', 'o', 's', 'r', 'p', 'b', 'u', 'h', 'e'] for goal nodes ('m', 'e', 'o') explored more nodes than allowed maximum. Explored count was 30 and max allowed count was 22
+Path ['g', 'b', 'u', 'b', 'p', 'c', 'd'] for goal nodes ('u', 'g', 'd') explored more nodes than allowed maximum. Explored count was 17 and max allowed count was 12
+Path ['b', 'p', 'r', 's', 'o'] for goal nodes ('b', 'p', 'o') explored more nodes than allowed maximum. Explored count was 24 and max allowed count was 9
+Path ['i', 'v', 'u', 'b', 'p', 'c', 'd', 'm', 'l'] for goal nodes ('i', 'v', 'l') explored more nodes than allowed maximum. Explored count was 30 and max allowed count was 24
+Path ['r', 'p', 'b', 'g', 'b', 'u', 'h'] for goal nodes ('g', 'r', 'h') explored more nodes than allowed maximum. Explored count was 17 and max allowed count was 10
+Path ['a', 's', 'r', 'p', 'b', 'u', 'h'] for goal nodes ('a', 'b', 'h') explored more nodes than allowed maximum. Explored count was 30 and max allowed count was 12
+Path ['z', 'a', 's', 'r', 'p', 'b', 'u'] for goal nodes ('z', 'b', 'u') explored more nodes than allowed maximum. Explored count was 36 and max allowed count was 16
+Path ['t', 'a', 'z', 'a', 's', 'r', 'p', 'b', 'u', 'h'] for goal nodes ('z', 't', 'h') explored more nodes than allowed maximum. Explored count was 39 and max allowed count was 20
+Path ['m', 'd', 'c', 'p', 'b', 'u', 'h'] for goal nodes ('p', 'm', 'h') explored more nodes than allowed maximum. Explored count was 27 and max allowed count was 13
+Path ['h', 'u', 'b', 'u', 'v', 'i'] for goal nodes ('b', 'h', 'i') explored more nodes than allowed maximum. Explored count was 12 and max allowed count was 9
+Path ['s', 'f', 'b', 'u', 'v', 'i'] for goal nodes ('s', 'f', 'i') explored more nodes than allowed maximum. Explored count was 23 and max allowed count was 17
+Path ['c', 'r', 'p', 'b', 'u', 'v'] for goal nodes ('c', 'r', 'v') explored more nodes than allowed maximum. Explored count was 20 and max allowed count was 13
+Path ['s', 'r', 'p', 'b', 'u', 'h', 'e', 'h', 'u', 'v', 'i', 'n'] for goal nodes ('s', 'e', 'n') explored more nodes than allowed maximum. Explored count was 30 and max allowed count was 17
+Path ['z', 'a', 't', 'l', 'm', 'd', 'c', 'p', 'b', 'u', 'v'] for goal nodes ('z', 'd', 'v') explored more nodes than allowed maximum. Explored count was 34 and max allowed count was 22
+Path ['t', 'a', 'z', 'o'] for goal nodes ('a', 't', 'o') explored more nodes than allowed maximum. Explored count was 11 and max allowed count was 8
+Path ['g', 'b', 'u', 'v', 'i'] for goal nodes ('b', 'g', 'i') explored more nodes than allowed maximum. Explored count was 12 and max allowed count was 10
+Path ['s', 'r', 'p', 'b', 'g'] for goal nodes ('s', 'g', 'r') explored more nodes than allowed maximum. Explored count was 19 and max allowed count was 11
+Path ['s', 'r', 'c', 'p', 'b', 'u', 'v', 'i', 'n'] for goal nodes ('s', 'c', 'n') explored more nodes than allowed maximum. Explored count was 31 and max allowed count was 26
+Path ['n', 'i', 'v', 'u', 'b', 'p', 'c', 'd', 'm', 'l'] for goal nodes ('p', 'n', 'l') explored more nodes than allowed maximum. Explored count was 40 and max allowed count was 19
+Path ['s', 'r', 'c', 'p', 'b', 'u', 'h'] for goal nodes ('s', 'c', 'h') explored more nodes than allowed maximum. Explored count was 37 and max allowed count was 13
+Path ['c', 'p', 'b', 'u', 'v', 'i', 'n'] for goal nodes ('u', 'c', 'n') explored more nodes than allowed maximum. Explored count was 27 and max allowed count was 11
+Path ['i', 'v', 'u', 'b', 'f', 's', 'o'] for goal nodes ('f', 'i', 'o') explored more nodes than allowed maximum. Explored count was 29 and max allowed count was 17
+Path ['t', 'a', 's', 'r', 'p', 'b', 'u', 'v', 'i'] for goal nodes ('t', 'r', 'i') explored more nodes than allowed maximum. Explored count was 37 and max allowed count was 19
+Path ['a', 's', 'f', 'b', 'u', 'h', 'e'] for goal nodes ('a', 'f', 'e') explored more nodes than allowed maximum. Explored count was 28 and max allowed count was 11
+Path ['p', 'c', 'd', 'm'] for goal nodes ('p', 'c', 'm') explored more nodes than allowed maximum. Explored count was 13 and max allowed count was 10
+Path ['h', 'u', 'b', 'p', 'c', 'd', 'm', 'l'] for goal nodes ('d', 'h', 'l') explored more nodes than allowed maximum. Explored count was 34 and max allowed count was 16
+Path ['a', 't', 'l', 'm', 'd', 'c'] for goal nodes ('a', 'c', 'l') explored more nodes than allowed maximum. Explored count was 17 and max allowed count was 11
+Path ['z', 'a', 's'] for goal nodes ('a', 'z', 's') explored more nodes than allowed maximum. Explored count was 8 and max allowed count was 7
+Path ['t', 'a', 's', 'r', 'p', 'b', 'u', 'h', 'e'] for goal nodes ('t', 'r', 'e') explored more nodes than allowed maximum. Explored count was 38 and max allowed count was 16
+Path ['m', 'd', 'c', 'p', 'b', 'u', 'h'] for goal nodes ('b', 'm', 'h') explored more nodes than allowed maximum. Explored count was 29 and max allowed count was 16
+Path ['p', 'r', 's', 'f', 's', 'o'] for goal nodes ('p', 'f', 'o') explored more nodes than allowed maximum. Explored count was 16 and max allowed count was 10
+Path ['f', 's', 'r', 'p', 'c', 'd', 'm'] for goal nodes ('p', 'f', 'm') explored more nodes than allowed maximum. Explored count was 21 and max allowed count was 13
+Path ['z', 'a', 't', 'l', 'm', 'd', 'c', 'p', 'b', 'u', 'h', 'e'] for goal nodes ('z', 'm', 'e') explored more nodes than allowed maximum. Explored count was 30 and max allowed count was 21
+Path ['r', 's', 'a', 'z', 'o'] for goal nodes ('a', 'r', 'o') explored more nodes than allowed maximum. Explored count was 15 and max allowed count was 10
+Path ['t', 'a', 's', 'r', 'p', 'b', 'u', 'v', 'i', 'n'] for goal nodes ('t', 'u', 'n') explored more nodes than allowed maximum. Explored count was 40 and max allowed count was 21
+Path ['t', 'a', 's', 'r', 'p', 'b', 'u', 'h', 'e'] for goal nodes ('a', 't', 'e') explored more nodes than allowed maximum. Explored count was 37 and max allowed count was 22
+Path ['s', 'f', 'b', 'g'] for goal nodes ('s', 'g', 'f') explored more nodes than allowed maximum. Explored count was 17 and max allowed count was 10
+Path ['t', 'l', 'm', 'd', 'c', 'p', 'b'] for goal nodes ('t', 'b', 'l') explored more nodes than allowed maximum. Explored count was 25 and max allowed count was 18
+Path ['t', 'a', 's', 'r', 'p', 'b', 'g'] for goal nodes ('a', 't', 'g') explored more nodes than allowed maximum. Explored count was 33 and max allowed count was 17
+Path ['e', 'h', 'u', 'b', 'p', 'c', 'd', 'm', 'l'] for goal nodes ('e', 'h', 'l') explored more nodes than allowed maximum. Explored count was 37 and max allowed count was 26
+Path ['t', 'a', 's', 'r', 'p', 'b', 'u', 'v', 'i'] for goal nodes ('t', 'b', 'i') explored more nodes than allowed maximum. Explored count was 41 and max allowed count was 21
+Path ['c', 'r', 's', 'o'] for goal nodes ('c', 'r', 'o') explored more nodes than allowed maximum. Explored count was 15 and max allowed count was 8
+Path ['g', 'b', 'f'] for goal nodes ('b', 'g', 'f') explored more nodes than allowed maximum. Explored count was 11 and max allowed count was 8
+Path ['s', 'r', 'p', 'b', 'u', 'h', 'e'] for goal nodes ('s', 'u', 'e') explored more nodes than allowed maximum. Explored count was 27 and max allowed count was 12
+Path ['t', 'a', 's', 'f', 'b', 'u', 'h'] for goal nodes ('t', 'f', 'h') explored more nodes than allowed maximum. Explored count was 32 and max allowed count was 13
+Path ['m', 'd', 'c', 'p', 'b', 'u', 'v', 'u', 'h', 'e'] for goal nodes ('m', 'e', 'v') explored more nodes than allowed maximum. Explored count was 27 and max allowed count was 20
+Path ['v', 'u', 'b', 'p', 'r', 's', 'o'] for goal nodes ('u', 'v', 'o') explored more nodes than allowed maximum. Explored count was 31 and max allowed count was 16
+Path ['c', 'p', 'b', 'u', 'h', 'e', 'h', 'u', 'v', 'i'] for goal nodes ('c', 'e', 'i') explored more nodes than allowed maximum. Explored count was 22 and max allowed count was 14
+Path ['d', 'c', 'p', 'b', 'u', 'v'] for goal nodes ('c', 'd', 'v') explored more nodes than allowed maximum. Explored count was 25 and max allowed count was 13
+Path ['s', 'r', 'p', 'b', 'u', 'h'] for goal nodes ('s', 'b', 'h') explored more nodes than allowed maximum. Explored count was 23 and max allowed count was 12
+Path ['c', 'r', 's', 'f', 'b', 'u', 'v', 'i'] for goal nodes ('f', 'c', 'i') explored more nodes than allowed maximum. Explored count was 18 and max allowed count was 15
+Path ['g', 'b', 'p', 'r', 's', 'a', 't', 'l'] for goal nodes ('s', 'g', 'l') explored more nodes than allowed maximum. Explored count was 28 and max allowed count was 16
+Path ['f', 'b', 'u', 'v'] for goal nodes ('b', 'f', 'v') explored more nodes than allowed maximum. Explored count was 19 and max allowed count was 10
+Path ['s', 'r', 'p', 'b', 'u', 'v'] for goal nodes ('s', 'u', 'v') explored more nodes than allowed maximum. Explored count was 28 and max allowed count was 12
+Path ['m', 'l', 't', 'a', 'z', 'o', 's', 'r', 'p', 'b', 'u', 'v', 'i'] for goal nodes ('m', 'i', 'o') explored more nodes than allowed maximum. Explored count was 27 and max allowed count was 22
+Path ['a', 's', 'r', 'p', 'b', 'u', 'v', 'i'] for goal nodes ('a', 'p', 'i') explored more nodes than allowed maximum. Explored count was 39 and max allowed count was 15
+Path ['t', 'a', 's', 'r', 'p', 'b', 'u'] for goal nodes ('a', 't', 'u') explored more nodes than allowed maximum. Explored count was 38 and max allowed count was 16
+Path ['a', 's', 'r', 'p', 'b', 'u', 'v', 'i', 'n'] for goal nodes ('a', 'p', 'n') explored more nodes than allowed maximum. Explored count was 38 and max allowed count was 22
+Path ['s', 'a', 'z', 'a', 't'] for goal nodes ('z', 's', 't') explored more nodes than allowed maximum. Explored count was 11 and max allowed count was 8
+Path ['h', 'u', 'v', 'i', 'n'] for goal nodes ('u', 'h', 'n') explored more nodes than allowed maximum. Explored count was 12 and max allowed count was 10
+Path ['z', 'a', 's', 'r', 'p', 'b', 'u', 'v', 'i'] for goal nodes ('z', 's', 'i') explored more nodes than allowed maximum. Explored count was 35 and max allowed count was 21
+Path ['d', 'c', 'p', 'b', 'u', 'v'] for goal nodes ('b', 'd', 'v') explored more nodes than allowed maximum. Explored count was 30 and max allowed count was 12
+Path ['s', 'r', 'p', 'b', 'u', 'h', 'e'] for goal nodes ('s', 'p', 'e') explored more nodes than allowed maximum. Explored count was 30 and max allowed count was 12
+Path ['v', 'u', 'b', 'p', 'r', 's', 'o'] for goal nodes ('p', 'v', 'o') explored more nodes than allowed maximum. Explored count was 37 and max allowed count was 11
+Path ['v', 'u', 'b', 'f', 's', 'a', 't', 'l'] for goal nodes ('f', 'v', 'l') explored more nodes than allowed maximum. Explored count was 39 and max allowed count was 19
+Path ['e', 'h', 'u', 'b', 'p', 'c', 'd', 'm', 'l'] for goal nodes ('b', 'e', 'l') explored more nodes than allowed maximum. Explored count was 35 and max allowed count was 18
+Path ['b', 'p', 'r'] for goal nodes ('b', 'p', 'r') explored more nodes than allowed maximum. Explored count was 11 and max allowed count was 7
+Path ['d', 'c', 'r', 'p', 'b', 'u', 'v', 'i', 'n'] for goal nodes ('d', 'r', 'n') explored more nodes than allowed maximum. Explored count was 30 and max allowed count was 27
+Path ['d', 'c', 'r', 's', 'r', 'p', 'b', 'u', 'v'] for goal nodes ('s', 'd', 'v') explored more nodes than allowed maximum. Explored count was 25 and max allowed count was 19
+Path ['a', 's', 'r', 'c', 'p', 'b', 'g'] for goal nodes ('a', 'g', 'c') explored more nodes than allowed maximum. Explored count was 28 and max allowed count was 14
+Path ['f', 'b', 'u', 'v', 'i'] for goal nodes ('b', 'f', 'i') explored more nodes than allowed maximum. Explored count was 20 and max allowed count was 12
+Path ['t', 'l', 'm', 'd', 'c', 'p', 'b', 'g'] for goal nodes ('t', 'g', 'c') explored more nodes than allowed maximum. Explored count was 37 and max allowed count was 13
+Path ['m', 'd', 'c', 'p', 'b', 'u', 'h', 'e'] for goal nodes ('c', 'm', 'e') explored more nodes than allowed maximum. Explored count was 35 and max allowed count was 15
+Path ['z', 'a', 's', 'r', 'p', 'b', 'g', 'b', 'u', 'v'] for goal nodes ('z', 'g', 'v') explored more nodes than allowed maximum. Explored count was 27 and max allowed count was 18
+Path ['b', 'u', 'h'] for goal nodes ('b', 'u', 'h') explored more nodes than allowed maximum. Explored count was 10 and max allowed count was 7
+Path ['f', 's', 'a', 'z', 'a', 't', 'l'] for goal nodes ('z', 'f', 'l') explored more nodes than allowed maximum. Explored count was 19 and max allowed count was 14
+Path ['s', 'r', 'p', 'b', 'g', 'b', 'u', 'h'] for goal nodes ('s', 'g', 'h') explored more nodes than allowed maximum. Explored count was 26 and max allowed count was 12
+Path ['m', 'd', 'c', 'r', 's', 'f', 'b', 'u', 'v', 'i', 'n'] for goal nodes ('f', 'm', 'n') explored more nodes than allowed maximum. Explored count was 32 and max allowed count was 21
+Path ['t', 'a', 'z', 'o'] for goal nodes ('z', 't', 'o') explored more nodes than allowed maximum. Explored count was 13 and max allowed count was 10
+Path ['n', 'i', 'v', 'u', 'h', 'e', 'h', 'u', 'b', 'p', 'c', 'd', 'm', 'l'] for goal nodes ('e', 'n', 'l') explored more nodes than allowed maximum. Explored count was 32 and max allowed count was 27
+Path ['u', 'b', 'f', 's', 'a', 't', 'l'] for goal nodes ('u', 'f', 'l') explored more nodes than allowed maximum. Explored count was 35 and max allowed count was 19
+Path ['g', 'b', 'f', 's', 'a', 't', 'l'] for goal nodes ('g', 'f', 'l') explored more nodes than allowed maximum. Explored count was 32 and max allowed count was 18
+Path ['f', 's', 'r', 'p', 'b', 'u', 'h', 'e'] for goal nodes ('p', 'f', 'e') explored more nodes than allowed maximum. Explored count was 15 and max allowed count was 13
+Path ['g', 'b', 'u', 'b', 'p', 'r'] for goal nodes ('u', 'g', 'r') explored more nodes than allowed maximum. Explored count was 18 and max allowed count was 9
+Path ['t', 'a', 's', 'r', 'p', 'b', 'g'] for goal nodes ('t', 'p', 'g') explored more nodes than allowed maximum. Explored count was 38 and max allowed count was 17
+Path ['b', 'p', 'r', 's', 'r', 'c', 'd'] for goal nodes ('s', 'b', 'd') explored more nodes than allowed maximum. Explored count was 23 and max allowed count was 14
+Path ['f', 's', 'r', 'c', 'd', 'm', 'l'] for goal nodes ('f', 'r', 'l') explored more nodes than allowed maximum. Explored count was 20 and max allowed count was 16
+Path ['a', 's', 'r', 'c'] for goal nodes ('a', 's', 'c') explored more nodes than allowed maximum. Explored count was 19 and max allowed count was 8
+Path ['z', 'a', 's', 'r', 'p', 'b', 'g'] for goal nodes ('z', 'g', 'r') explored more nodes than allowed maximum. Explored count was 25 and max allowed count was 14
+Path ['m', 'l', 't', 'a', 's', 'r', 'p', 'b', 'u', 'h'] for goal nodes ('a', 'm', 'h') explored more nodes than allowed maximum. Explored count was 31 and max allowed count was 20
+Path ['z', 'a', 't', 'l', 'm', 'd', 'c', 'p', 'b', 'u', 'v', 'i'] for goal nodes ('z', 'm', 'i') explored more nodes than allowed maximum. Explored count was 28 and max allowed count was 22
+Path ['n', 'i', 'v', 'u', 'b', 'p', 'r', 'c', 'd', 'm', 'l'] for goal nodes ('r', 'n', 'l') explored more nodes than allowed maximum. Explored count was 34 and max allowed count was 28
+Path ['a', 't', 'l', 'm', 'd', 'c', 'p', 'b', 'u', 'h'] for goal nodes ('a', 'd', 'h') explored more nodes than allowed maximum. Explored count was 35 and max allowed count was 17
+Path ['s', 'a', 'z', 'a', 't', 'l', 'm'] for goal nodes ('z', 's', 'm') explored more nodes than allowed maximum. Explored count was 17 and max allowed count was 16
+Path ['s', 'r', 'c'] for goal nodes ('s', 'c', 'r') explored more nodes than allowed maximum. Explored count was 8 and max allowed count was 7
+Path ['e', 'h', 'u', 'b', 'g', 'b', 'p', 'r', 's', 'o'] for goal nodes ('g', 'e', 'o') explored more nodes than allowed maximum. Explored count was 29 and max allowed count was 15
+Path ['r', 'p', 'b', 'u', 'h', 'u', 'v'] for goal nodes ('r', 'h', 'v') explored more nodes than allowed maximum. Explored count was 21 and max allowed count was 11
+Path ['a', 's', 'r', 'p', 'b'] for goal nodes ('a', 's', 'b') explored more nodes than allowed maximum. Explored count was 24 and max allowed count was 10
+Path ['c', 'p', 'b', 'u', 'h', 'e'] for goal nodes ('c', 'e', 'h') explored more nodes than allowed maximum. Explored count was 21 and max allowed count was 13
+Path ['m', 'd', 'c', 'p', 'b', 'g', 'b', 'u', 'v'] for goal nodes ('g', 'm', 'v') explored more nodes than allowed maximum. Explored count was 28 and max allowed count was 19
+Path ['d', 'c', 'p', 'b', 'u', 'v', 'i', 'n'] for goal nodes ('b', 'd', 'n') explored more nodes than allowed maximum. Explored count was 33 and max allowed count was 15
+Path ['s', 'r', 'p', 'b', 'u', 'h', 'e'] for goal nodes ('s', 'e', 'h') explored more nodes than allowed maximum. Explored count was 26 and max allowed count was 14
+Path ['u', 'b', 'p', 'r', 's', 'o'] for goal nodes ('u', 'p', 'o') explored more nodes than allowed maximum. Explored count was 30 and max allowed count was 10
+Path ['t', 'a', 'z', 'o', 's', 'r', 'p', 'b', 'u', 'h', 'e'] for goal nodes ('t', 'e', 'o') explored more nodes than allowed maximum. Explored count was 35 and max allowed count was 24
+Path ['z', 'a', 's', 'r', 'p', 'b', 'g', 'b', 'u', 'v', 'i', 'n'] for goal nodes ('z', 'g', 'n') explored more nodes than allowed maximum. Explored count was 34 and max allowed count was 20
+Path ['z', 'a', 't', 'l', 'm'] for goal nodes ('a', 'z', 'm') explored more nodes than allowed maximum. Explored count was 14 and max allowed count was 10
+Path ['m', 'd', 'c', 'p', 'b', 'u', 'v', 'i', 'n'] for goal nodes ('p', 'm', 'n') explored more nodes than allowed maximum. Explored count was 38 and max allowed count was 19
+Path ['t', 'l', 'm', 'd', 'c', 'p', 'b', 'u', 'v', 'i'] for goal nodes ('t', 'd', 'i') explored more nodes than allowed maximum. Explored count was 38 and max allowed count was 27
+Path ['a', 's', 'r', 'p', 'b', 'u', 'h', 'e'] for goal nodes ('a', 's', 'e') explored more nodes than allowed maximum. Explored count was 25 and max allowed count was 15
+Path ['h', 'u', 'b', 'p', 'r', 's', 'a', 't', 'l'] for goal nodes ('s', 'h', 'l') explored more nodes than allowed maximum. Explored count was 35 and max allowed count was 19
+Path ['e', 'h', 'u', 'b', 'g', 'b', 'u', 'v', 'i'] for goal nodes ('g', 'e', 'i') explored more nodes than allowed maximum. Explored count was 12 and max allowed count was 11
+Path ['r', 'p', 'b', 'u', 'v', 'u', 'h', 'e'] for goal nodes ('r', 'e', 'v') explored more nodes than allowed maximum. Explored count was 21 and max allowed count was 14
+Path ['t', 'a', 's', 'r', 'p', 'b', 'u', 'v'] for goal nodes ('a', 't', 'v') explored more nodes than allowed maximum. Explored count was 35 and max allowed count was 26
+Path ['z', 'a', 's', 'f', 's', 'r', 'p'] for goal nodes ('z', 'p', 'f') explored more nodes than allowed maximum. Explored count was 24 and max allowed count was 13
+Path ['m', 'd', 'c', 'p', 'b', 'u', 'h', 'e'] for goal nodes ('p', 'm', 'e') explored more nodes than allowed maximum. Explored count was 30 and max allowed count was 15
+Path ['t', 'l', 'm', 'd', 'c', 'p', 'b', 'u'] for goal nodes ('t', 'u', 'c') explored more nodes than allowed maximum. Explored count was 41 and max allowed count was 13
+Path ['d', 'c', 'r', 'p', 'b', 'u', 'v', 'i'] for goal nodes ('d', 'r', 'i') explored more nodes than allowed maximum. Explored count was 28 and max allowed count was 19
+Path ['z', 'a', 's', 'r', 'c', 'p', 'b'] for goal nodes ('z', 'b', 'c') explored more nodes than allowed maximum. Explored count was 27 and max allowed count was 16
+Path ['t', 'a', 's', 'r', 'p', 'b', 'u', 'h', 'u', 'v'] for goal nodes ('t', 'h', 'v') explored more nodes than allowed maximum. Explored count was 36 and max allowed count was 24
+Path ['a', 's', 'r', 'p', 'b', 'u', 'h', 'e', 'h', 'u', 'v', 'i'] for goal nodes ('a', 'e', 'i') explored more nodes than allowed maximum. Explored count was 30 and max allowed count was 21
+Path ['c', 'p', 'b', 'g', 'b', 'u', 'h'] for goal nodes ('g', 'c', 'h') explored more nodes than allowed maximum. Explored count was 17 and max allowed count was 10
+Path ['s', 'a', 't', 'l'] for goal nodes ('s', 't', 'l') explored more nodes than allowed maximum. Explored count was 14 and max allowed count was 12
+Path ['t', 'l', 'm', 'd', 'c', 'p', 'b', 'u', 'v'] for goal nodes ('t', 'v', 'l') explored more nodes than allowed maximum. Explored count was 35 and max allowed count was 25
+Path ['m', 'd', 'c', 'r', 's', 'o'] for goal nodes ('c', 'm', 'o') explored more nodes than allowed maximum. Explored count was 16 and max allowed count was 14
+Path ['h', 'u', 'b', 'p', 'c', 'd', 'c', 'r', 's', 'o'] for goal nodes ('d', 'h', 'o') explored more nodes than allowed maximum. Explored count was 30 and max allowed count was 19
+Path ['t', 'l', 'm', 'd', 'c'] for goal nodes ('t', 'c', 'm') explored more nodes than allowed maximum. Explored count was 14 and max allowed count was 9
+Path ['i', 'v', 'u', 'h', 'u', 'b', 'p', 'r', 's', 'o'] for goal nodes ('h', 'i', 'o') explored more nodes than allowed maximum. Explored count was 32 and max allowed count was 17
+test_tri_upgraded_romania - 305 tests failed.

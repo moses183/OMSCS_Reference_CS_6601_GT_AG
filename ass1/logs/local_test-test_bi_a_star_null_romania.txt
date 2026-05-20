@@ -1,0 +1,4 @@
+test_bi_a_star_null_romania - Valid paths tests passed.
+test_bi_a_star_null_romania - Optimal paths tests passed.
+test_bi_a_star_null_romania - Explored nodes tests passed.
+All test_bi_a_star_null_romania passed.

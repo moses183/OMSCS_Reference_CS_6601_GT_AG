@@ -26,39 +26,35 @@ def uniform_cost_search(graph, start, goal) -> list:
     Returns:
         The best path via UCS as a list from the start to the goal node (including both).
     """
-    emp= PriorityQueue()
-    if start==goal:
+    if start == goal:
         return []
-    explored = dict()
+
     frontier = PriorityQueue()
-    pathier=PriorityQueue()
-    frontier.append((0,start))
-    pathier.append((0,[start]))
+    frontier.append((0, (start, [start], 0)))
 
-    while not frontier.__eq__(emp):
+    best_cost = {start: 0}
+    explored = set()
 
+    while frontier.size() > 0:
+        _, (current_node, current_path, path_cost) = frontier.pop()
 
-        cost,noi=frontier.pop()
-        poi=pathier.pop()[1]
-
-
-        if noi in explored and explored[noi]<=cost:
+        if current_node in explored:
+            continue
+        if path_cost > best_cost.get(current_node, float('inf')):
             continue
 
-        if noi==goal:
-            return poi
-        ns=sorted(list(graph.neighbors(noi)))
-        for n in ns:
-            wt = graph.get_edge_weight(noi, n)
-            addwt = wt + cost
-            if n not in explored or explored[n]<=addwt:
-                np=poi+[n]
-                frontier.append((addwt,n))
-                pathier.append((addwt,np))
-        if noi not in explored:
-            explored[noi]=cost
+        if current_node == goal:
+            return current_path
 
+        explored.add(current_node)
 
+        for neighbor in sorted(graph.neighbors(current_node)):
+            if neighbor in explored:
+                continue
 
-    # TODO: finish this function!͏︅͏︀͏︋͏︋͏󠄌͏󠄎͏︀͏󠄐͏󠄃͏︃
-    #raise NotImplementedError
+            new_cost = path_cost + graph.get_edge_weight(current_node, neighbor)
+            if new_cost < best_cost.get(neighbor, float('inf')):
+                best_cost[neighbor] = new_cost
+                frontier.append((new_cost, (neighbor, current_path + [neighbor], new_cost)))
+
+    return []

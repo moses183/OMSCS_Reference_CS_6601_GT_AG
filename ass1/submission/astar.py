@@ -43,23 +43,18 @@ def euclidean_dist_heuristic(graph, u, v):
         Euclidean distance between the u node and the v node
         Round the result to 3 decimal places (if applicable)
     """
-    ux,uy=graph.nodes[u]['pos']
-    vx,vy=graph.nodes[v]['pos']
-    euc=((vx-ux)**2+(vy-uy)**2)**0.5
-    return round(euc,3)
-    # TODO: finish this function!͏︅͏︀͏︋͏︋͏󠄌͏󠄎͏︀͏󠄐͏󠄃͏︃
-    #raise NotImplementedError
+    ux, uy = graph.nodes[u]['pos']
+    vx, vy = graph.nodes[v]['pos']
+    return round(math.hypot(vx - ux, vy - uy), 3)
 
-def gn(graph,path):
-    i=0
-    cost=0
-    while i < len(path)-1:
-        cost+=graph.get_edge_weight(path[i],path[i+1])
-        i+=1
-    return cost
+def path_cost(graph, path):
+    total_cost = 0
+    for index in range(len(path) - 1):
+        total_cost += graph.get_edge_weight(path[index], path[index + 1])
+    return total_cost
 
 
-def a_star(graph, start, goal, heuristic) -> list:
+def a_star(graph, start, goal, heuristic=euclidean_dist_heuristic) -> list:
     """
     Warm-up exercise: Implement A* algorithm.
 
@@ -75,37 +70,36 @@ def a_star(graph, start, goal, heuristic) -> list:
     Returns:
         The best path via A* as a list from the start to the goal node (including both).
     """
-    emp = PriorityQueue()
     if start == goal:
         return []
-    explored = dict()
+
     frontier = PriorityQueue()
-    pathier = PriorityQueue()
-    frontier.append((heuristic(graph,start,goal)+0, start))
-    pathier.append((heuristic(graph,start,goal)+0, [start]))
+    frontier.append((heuristic(graph, start, goal), (start, [start], 0)))
 
-    while not frontier.__eq__(emp):
+    best_cost = {start: 0}
+    explored = set()
 
-        cost,noi=frontier.pop()
-        poi=pathier.pop()[1]
+    while frontier.size() > 0:
+        _, (current_node, current_path, path_cost_so_far) = frontier.pop()
 
-        if noi in explored and explored[noi]<=cost:
+        if current_node in explored:
+            continue
+        if path_cost_so_far > best_cost.get(current_node, float('inf')):
             continue
 
-        if noi==goal:
-            return poi
-        ns=sorted(list(graph.neighbors(noi)))
-        for n in ns:
-            np = poi + [n]
-            addwt=gn(graph,np)+heuristic(graph,n,goal)
-            if n not in explored or explored[n]<=addwt:
-                frontier.append((addwt,n))
-                pathier.append((addwt,np))
-        if noi not in explored:
-            explored[noi]=cost
+        if current_node == goal:
+            return current_path
 
+        explored.add(current_node)
 
+        for neighbor in sorted(graph.neighbors(current_node)):
+            if neighbor in explored:
+                continue
 
+            new_cost = path_cost_so_far + graph.get_edge_weight(current_node, neighbor)
+            if new_cost < best_cost.get(neighbor, float('inf')):
+                best_cost[neighbor] = new_cost
+                priority = new_cost + heuristic(graph, neighbor, goal)
+                frontier.append((priority, (neighbor, current_path + [neighbor], new_cost)))
 
-    # TODO: finish this function!͏︅͏︀͏︋͏︋͏󠄌͏󠄎͏︀͏󠄐͏󠄃͏︃
-    #raise NotImplementedError
+    return []

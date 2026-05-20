@@ -1,0 +1,4 @@
+test_ucs_romania - Valid paths tests passed.
+test_ucs_romania - Optimal paths tests passed.
+test_ucs_romania - Explored nodes tests passed.
+All test_ucs_romania passed.

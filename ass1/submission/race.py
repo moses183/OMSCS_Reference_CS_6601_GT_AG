@@ -43,9 +43,9 @@ def euclidean_dist_heuristic(graph, u, v):
         Euclidean distance between the u node and the v node
         Round the result to 3 decimal places (if applicable)
     """
-
-    # TODO: finish this function!͏︅͏︀͏︋͏︋͏󠄌͏󠄎͏︀͏󠄐͏󠄃͏︃
-    raise NotImplementedError
+    ux, uy = graph.nodes[u]['pos']
+    vx, vy = graph.nodes[v]['pos']
+    return round(math.hypot(vx - ux, vy - uy), 3)
 
 
 def haversine_dist_heuristic(graph, u, v):
@@ -70,6 +70,51 @@ def haversine_dist_heuristic(graph, u, v):
     term1InSqrt = (math.sin((vLatLong[0]-uLatLong[0])/2))**2 #First term inside sqrt
     term2InSqrt = math.cos(uLatLong[0])*math.cos(vLatLong[0])*((math.sin((vLatLong[1]-uLatLong[1])/2))**2) #Second term
     return constOutFront*math.asin(math.sqrt(term1InSqrt+term2InSqrt)) #Straight application of formula
+
+
+def _looks_like_lat_long(graph, node):
+    latitude, longitude = graph.nodes[node]['pos']
+    return abs(latitude) <= 90 and abs(longitude) <= 180
+
+
+def _race_heuristic(graph, start, goal):
+    if _looks_like_lat_long(graph, start) and _looks_like_lat_long(graph, goal):
+        return haversine_dist_heuristic
+    return euclidean_dist_heuristic
+
+
+def _a_star_path(graph, start, goal, heuristic):
+    if start == goal:
+        return []
+
+    frontier = PriorityQueue()
+    frontier.append((heuristic(graph, start, goal), (start, [start], 0)))
+    best_cost = {start: 0}
+    explored = set()
+
+    while frontier.size() > 0:
+        _, (node, path, cost) = frontier.pop()
+
+        if node in explored:
+            continue
+        if cost > best_cost.get(node, float('inf')):
+            continue
+        if node == goal:
+            return path
+
+        explored.add(node)
+
+        for neighbor in sorted(graph.neighbors(node)):
+            if neighbor in explored:
+                continue
+
+            new_cost = cost + graph.get_edge_weight(node, neighbor)
+            if new_cost < best_cost.get(neighbor, float('inf')):
+                best_cost[neighbor] = new_cost
+                priority = new_cost + heuristic(graph, neighbor, goal)
+                frontier.append((priority, (neighbor, path + [neighbor], new_cost)))
+
+    return []
 
 
 def compute_landmarks(graph) -> list:
@@ -131,6 +176,5 @@ def custom_search(graph, start, goal, data=None) -> list:
     Returns:
         The best path as a list from the start to the goal node (including both).
     """
-
-    # TODO: finish this function!͏︅͏︀͏︋͏︋͏󠄌͏󠄎͏︀͏󠄐͏󠄃͏︃
-    raise NotImplementedError
+    heuristic = _race_heuristic(graph, start, goal)
+    return _a_star_path(graph, start, goal, heuristic)

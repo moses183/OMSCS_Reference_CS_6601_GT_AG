@@ -1,0 +1,7 @@
+test_tri_ucs_romania - Valid paths tests passed.
+Path ['t', 'a', 's', 'f', 'b', 'u', 'v', 'i', 'n'] for goal nodes ('t', 'i', 'n') does not match reference. Path cost was 974 and expected path cost was 942. Expected path is ['t', 'a', 's', 'r', 'p', 'b', 'u', 'v', 'i', 'n']
+Path ['e', 'h', 'u', 'v', 'u', 'b', 'f', 's', 'o'] for goal nodes ('e', 'v', 'o') does not match reference. Path cost was 1014 and expected path cost was 982. Expected path is ['e', 'h', 'u', 'v', 'u', 'b', 'p', 'r', 's', 'o']
+Path ['i', 'v', 'u', 'b', 'f', 's', 'o'] for goal nodes ('i', 'v', 'o') does not match reference. Path cost was 780 and expected path cost was 748. Expected path is ['i', 'v', 'u', 'b', 'p', 'r', 's', 'o']
+Path ['s', 'f', 'b', 'g'] for goal nodes ('s', 'b', 'g') does not match reference. Path cost was 400 and expected path cost was 368. Expected path is ['s', 'r', 'p', 'b', 'g']
+Path ['m', 'l', 't', 'a', 's', 'o'] for goal nodes ('s', 'm', 'o') does not match reference. Path cost was 590 and expected path cost was 572. Expected path is ['m', 'd', 'c', 'r', 's', 'o']
+test_tri_ucs_romania - 5 tests failed.

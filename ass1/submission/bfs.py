@@ -35,30 +35,20 @@ def breadth_first_search(graph, start, goal) -> list:
     if start == goal:
         return []
 
-    frontier=[start]
-    pathier=[[start]]
-    explored=set()
+    frontier = [(start, [start])]
+    visited = {start}
+    next_index = 0
 
-    while frontier:
-        noi=frontier.pop(0)
-        poi=pathier.pop(0)
-        ns=sorted(list(graph.neighbors(noi)))
-        for n in ns:
-            if n ==goal :
-                return poi+[n]
-            if n not in frontier and n not in explored:
-                frontier.append(n)
-                pathier.append(poi+[n])
-        if noi not in explored:
-            explored.add(noi)
+    while next_index < len(frontier):
+        current_node, current_path = frontier[next_index]
+        next_index += 1
 
+        for neighbor in sorted(graph.neighbors(current_node)):
+            if neighbor == goal:
+                return current_path + [neighbor]
 
+            if neighbor not in visited:
+                visited.add(neighbor)
+                frontier.append((neighbor, current_path + [neighbor]))
 
-
-
-
-
-
-
-    # TODO: finish this function!͏︅͏︀͏︋͏︋͏󠄌͏󠄎͏︀͏󠄐͏󠄃͏︃
-    #raise NotImplementedError
+    return []

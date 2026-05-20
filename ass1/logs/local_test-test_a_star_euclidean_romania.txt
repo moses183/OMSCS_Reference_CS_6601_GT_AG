@@ -1,0 +1,4 @@
+test_a_star_euclidean_romania - Valid paths tests passed.
+test_a_star_euclidean_romania - Optimal paths tests passed.
+test_a_star_euclidean_romania - Explored nodes tests passed.
+All test_a_star_euclidean_romania passed.

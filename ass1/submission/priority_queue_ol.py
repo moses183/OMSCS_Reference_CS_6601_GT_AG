@@ -44,30 +44,42 @@ class PriorityQueue(object):
             The node with the highest priority.
         """
 
-        first_entry = self.queue[0]
-        final_entry = self.queue.pop()
+        if not self.queue:
+            return None
 
-        if self.size() > 0:
-            self.queue[0] = final_entry
+        queue = self.queue
+        top_node = queue[0][1]
+        last_entry = queue.pop()
+
+        if queue:
+            queue_size = len(queue)
             current_index = 0
 
             while True:
                 left_child = (2 * current_index) + 1
-                right_child = left_child + 1
-                better_child = current_index
-
-                if left_child < self.size() and self.compare(left_child, better_child):
-                    better_child = left_child
-                if right_child < self.size() and self.compare(right_child, better_child):
-                    better_child = right_child
-
-                if better_child == current_index:
+                if left_child >= queue_size:
                     break
 
-                self.swap(current_index, better_child)
+                right_child = left_child + 1
+                better_child = left_child
+
+                if right_child < queue_size:
+                    left_order, left_node = queue[left_child]
+                    right_order, right_node = queue[right_child]
+                    if (right_node[0], right_order) < (left_node[0], left_order):
+                        better_child = right_child
+
+                child_order, child_node = queue[better_child]
+                last_order, last_node = last_entry
+                if (last_node[0], last_order) <= (child_node[0], child_order):
+                    break
+
+                queue[current_index] = queue[better_child]
                 current_index = better_child
 
-        return first_entry[1]
+            queue[current_index] = last_entry
+
+        return top_node
 
     def remove(self, node):
         """
@@ -102,16 +114,21 @@ class PriorityQueue(object):
 
         entry = (self.counter, node)
         self.counter += 1
-        self.queue.append(entry)
+        queue = self.queue
+        queue.append(entry)
 
-        child_index = self.size() - 1
+        child_index = len(queue) - 1
+        entry_order, entry_node = entry
         while child_index > 0:
             parent_index = (child_index - 1) // 2
-            if not self.compare(child_index, parent_index):
+            parent_order, parent_node = queue[parent_index]
+            if (entry_node[0], entry_order) >= (parent_node[0], parent_order):
                 break
 
-            self.swap(child_index, parent_index)
+            queue[child_index] = queue[parent_index]
             child_index = parent_index
+
+        queue[child_index] = entry
 
     def __contains__(self, key):
         """
