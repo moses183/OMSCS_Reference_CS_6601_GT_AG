@@ -1,0 +1,77 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+
+\title{Question 1 Search Answers}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+The problem states that the path cost is the number of moves made to reach the current position, so each knight move has unit cost and the optimal cost from $(0,0)$ to $(0,4)$ is $2$.
+
+\begin{enumerate}
+\item \textbf{Maximum branching factor:} $8$.
+
+The knight has $8$ legal moves on an infinite chessboard.
+
+\item \textbf{Search techniques guaranteed to find a solution with infinite time:} Breadth-First Search and Iterative-Deepening Depth-First Search.
+
+Depth-First Search is not guaranteed to find a solution on an infinite search tree because it can follow an infinite branch forever.
+
+\item \textbf{Heuristics that allow A* to find an optimal solution of cost $2$:} $h_1$, $h_2$, and $h_3$.
+
+\begin{itemize}
+\item $h_1(n)=C$ gives $f(n)=g(n)+C$, which preserves the same ordering as $g(n)$.
+\item $h_2(n)=C-g(n)$ gives $f(n)=C$, so A* reduces to FIFO queue behavior, which is Breadth-First Search here.
+\item $h_3(n)=2g(n)$ gives $f(n)=3g(n)$, which also preserves the same ordering as $g(n)$.
+\item $h_4(n)=-2g(n)$ gives $f(n)=-g(n)$, which prefers deeper nodes and is not guaranteed to return the optimal depth-$2$ solution first.
+\end{itemize}
+
+\item \textbf{Heuristics that make A* behave like Breadth-First Search in this problem:} $h_1$, $h_2$, and $h_3$.
+
+Because every move has unit cost, Breadth-First Search expands by depth. The order induced by $f(n)=g(n)+C$, $f(n)=C$, and $f(n)=3g(n)$ matches Breadth-First Search under the stated FIFO tie-breaking.
+
+\item \textbf{Heuristics that make A* behave like Uniform-Cost Search in this problem:} $h_1$, $h_2$, and $h_3$.
+
+In this problem Uniform-Cost Search and Breadth-First Search behave the same because every move has cost $1$. Therefore the same three heuristics from Question 4 also match Uniform-Cost Search behavior.
+
+\item \textbf{Consistent heuristics:} $h_1$ and $h_2$.
+
+For consistency we require
+\[
+h(n) \le c(n,a,n') + h(n').
+\]
+Since each move has cost $1$:
+\begin{itemize}
+\item For $h_1(n)=C$, we get $C \le 1 + C$.
+\item For $h_2(n)=C-g(n)$ and $g(n')=g(n)+1$, we get
+\[
+C-g(n) \le 1 + C - g(n') = 1 + C - (g(n)+1) = C-g(n).
+\]
+So equality holds for every successor.
+\end{itemize}
+
+\item \textbf{Landmark heuristic value:} $6$.
+
+Using
+\[
+h_L(n)=\min_{L \in \text{Landmarks}} C^*(n,L) + C^*(L,\text{goal}),
+\]
+for $n=(4,-2)$ and goal $(0,4)$:
+\begin{align*}
+(0,8):\;& 6 + 2 = 8,\\
+(8,0):\;& 2 + 4 = 6,\\
+(0,-8):\;& 4 + 6 = 10,\\
+(-8,0):\;& 6 + 4 = 10.
+\end{align*}
+Therefore,
+\[
+h_L(n)=6.
+\]
+\end{enumerate}
+
+\end{document}
